@@ -1,17 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./02-Components/props/App";
+import Button from "../src/02-Components/exercises/02-Button/App";
 import "./index.css";
-
-const noguchi = <App name="Noguchi" />;
-console.log(noguchi);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {console.log(<App name="Beto" />)}
-    <App name="Julia" />
-    <App name="Diego" />
-    {noguchi}
-    <App />
+    <Button status="cancel">Cancel</Button>
+    <Button status="confirm">Confirm</Button>
+    <Button status="accept">Accept</Button>
   </StrictMode>
 );

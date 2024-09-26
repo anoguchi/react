@@ -1,5 +1,6 @@
 import "./App.css";
 
+// eslint-disable-next-line react/prop-types
 function FriendlyGreeting({ name = "there" }) {
   return (
     <p

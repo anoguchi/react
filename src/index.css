@@ -66,8 +66,8 @@ html {
 }
 body {
   padding: 0;
-  color: white;
-  background-color: hsl(258, 80%, 1%);
+  color: black;
+  background-color: hsl(34, 100%, 81%);
 }
 #root {
   min-height: 100%;
