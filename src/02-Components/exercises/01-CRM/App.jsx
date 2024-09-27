@@ -6,7 +6,8 @@ function ContactCard({ name, jobName, email }) {
     <li className="contact-card">
       <h2>{name}</h2>
       <dl>
-        <dt>{jobName}</dt>
+        <dt>Job</dt>
+        <dd>{jobName}</dd>
         <dt>Email</dt>
         <dd>{email}</dd>
       </dl>
