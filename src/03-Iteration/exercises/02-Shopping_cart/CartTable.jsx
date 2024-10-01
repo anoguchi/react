@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import "./App.css";
-import "./App.jsx";
 
 function CartTable({ items }) {
   // TODO: Map through “items”, creating 1 row
