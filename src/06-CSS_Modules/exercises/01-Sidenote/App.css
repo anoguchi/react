@@ -1,0 +1,7 @@
+body {
+  background: snow;
+}
+
+#root {
+  flex-direction: column;
+}

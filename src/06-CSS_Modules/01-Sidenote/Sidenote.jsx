@@ -1,4 +1,4 @@
-import styles from "./App.css";
+import styles from "./App.css?url";
 
 function Sidenote({ title, children }) {
   return (
