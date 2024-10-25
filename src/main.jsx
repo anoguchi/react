@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./06-CSS_Modules/exercises/02-Movie_rating_animation/App";
+import App from "./07-Event_Handlers/exercises/01-Click_the_ball/App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

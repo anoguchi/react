@@ -16,7 +16,9 @@ function Movie({ movie }) {
         <p className={styles.synopsis}>{movie.synopsis}</p>
         <p>
           <strong>Rating:</strong>{" "}
-          <span className={ratingNumber >= 9 && styles.glowingReview}>
+          <span
+            className={ratingNumber >= 9 ? styles.glowingReview : undefined}
+          >
             {movie.rating}
           </span>
         </p>
