@@ -1,0 +1,25 @@
+#root {
+  display: unset;
+}
+
+body {
+  padding: 0 2rem;
+}
+
+.gradient-preview {
+  aspect-ratio: 2 / 1;
+  min-height: 75px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+.color-row {
+  display: flex;
+}
+.color-row label {
+  width: 100px;
+}
